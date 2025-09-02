@@ -1,0 +1,20 @@
+{
+  "name": "GoInsight: анализ конкурентов",
+  "short_name": "GoInsight",
+  "description": "Go Insight делает анализ конкурентов доступным для каждой команды, позволяя принимать стратегические решения и опережать рынок в рекордно короткие сроки",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#153BFF",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
