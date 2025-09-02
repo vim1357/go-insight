@@ -871,7 +871,6 @@ button {
         right: 0;
         z-index: 100;
         box-shadow: none;
-        мш
     }
     
     .header__content {
@@ -940,7 +939,7 @@ button {
     }
     
     .hero__partners-text p {
-        font-size: 11px;
+        font-size: 14px;
         white-space: normal;
         text-align: center;
     }
@@ -1025,8 +1024,8 @@ button {
 
 @media (max-width: 480px) {
     :root {
-        --container-padding: 24px;
-        --spacing-3xl: 48px;
+        --container-padding: 14px;
+        --spacing-3xl: 64px;
         --spacing-2xl: 32px;
         --spacing-xl: 24px;
         --spacing-lg: 24px;
@@ -1098,22 +1097,20 @@ button {
     .hero__title {
         font-size: 28px;
         line-height: 32px;
-        margin-top: 40px;
+        margin-top: 32px;
     }
     
     .hero__partners-text p {
-        font-size: 10px;
-        white-space: normal;
+        font-size: 14px;
         text-align: center;
     }
     
     .hero__partners {
-        gap: 16px;
+        gap: 4px;
     }
     
     .problem-section__diagram {
-        padding: 24px;
-        margin-bottom: 48px;
+        margin-bottom: 32px;
     }
     
     .diagram__companies {
@@ -1122,31 +1119,36 @@ button {
     
     .problem-section__cards {
         margin-bottom: 48px;
-        gap: 15px;
+        gap: 10px;
     }
     
     .problem-card {
         width: 100%;
+        margin-bottom: 24px;
     }
     
     .problem-section__value-proposition .value-proposition__title {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 32px;
+        line-height: 36px;
+        
     }
     
     .benefits-section__title {
         font-size: 24px;
         line-height: 30px;
+        
     }
     
     .testimonials-section__title {
-        font-size: 24px;
+        font-size: 32px;
         line-height: 30px;
+        margin-bottom: 16px;
+        
     }
     
     .testimonials-section__quote {
-        font-size: 20px;
-        line-height: 26px;
+        font-size: 32px;
+        line-height: 36px;
         width: 100%;
         max-width: 100%;
         margin: 60px auto 24px auto;
@@ -1159,8 +1161,8 @@ button {
     }
     
     .faq-section__title {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 32px;
+        line-height: 36px;
         margin-bottom: 32px;
     }
     
@@ -1169,8 +1171,8 @@ button {
     }
     
     .final-cta__title {
-        font-size: 28px;
-        line-height: 34px;
+        font-size: 32px;
+        line-height: 36px;
     }
     
     .problem-card__title {
